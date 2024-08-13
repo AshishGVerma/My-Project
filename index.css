@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+.top-nav{
+    width: 100vw;
+    background-color: #FC456A;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+.top-nav-col1{
+    width: 50%;
+    color: rgb(209, 204, 204);
+    display: flex;
+    justify-content: center;
+}
+.top-nav-col1 a{
+    text-decoration: none;
+    color: white;
+}
+.top-nav-col2 i{
+    color: white;
+}
+.top-nav-col2{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.second-nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.second-nav-logo{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.second-nav-list{
+    width: 50%;
+    
+}
+.second-nav-list ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+   
+}
+.second-nav-logo a p{
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+}
+.second-nav-logo span{
+    color: #FC456A;
+}
+.second-nav-list ul li a{
+    text-decoration: none;
+    color: gray;
+}
+.active a{
+    color: #FC456A;
+    border-bottom: 2px solid #FC456A;
+}
+.header{
+    background-image: url('./bg_1.jpg.webp');
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.header-content{
+    width: 60%;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 50px;
+}
+.header-form{
+    width: 40%;
+}
+.header-content p{
+    padding: 150px;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.second-nav-logo p{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.header-form form{
+    width: 30vw;
+    height: 60vh;
+    background-color: white;
+    border-radius: 7px;
+    padding: 25px 30px;
+}
+.header-form p{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 30px; 
+
+}
+.header-form input{
+    height: 11%;
+    background-color: rgb(242, 241, 241);
+    border: none;
+    margin: 7px;
+    border-radius: 5px;
+}
+.header-form select{
+    height: 11%;
+    background-color: rgb(242, 241, 241);
+    border: none;
+    margin: 7px;
+    border-radius: 5px; 
+}
+
+.header-form button a{
+    text-decoration: none;
+     
+}
